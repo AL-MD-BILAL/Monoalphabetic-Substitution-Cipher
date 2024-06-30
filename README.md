@@ -13,7 +13,7 @@ Type or copy the below code in your terminal to install the tool in your compute
 
 ```bash
 # Clone the repository
-git clone https://github.com/AL-MD-BILAL/transposition.git
+git clone https://github.com/AL-MD-BILAL/Transposition-Cipher.git
 
 # Change directory to the transposition directory
 cd transposition
