@@ -11,7 +11,7 @@ This python tool is used to encrypt or decrypt a given sentence using substituti
 
 Type or copy the below code in your terminal to install the tool in your computer 
 
-```
+```bash
 # Clone the repository
 git clone https://github.com/AL-MD-BILAL/Monoalphabetic-Substitution-Cipher.git
 
@@ -22,7 +22,7 @@ cd Monoalphabetic-Substitution-Cipher
 
 Type or copy the below code in your terminal to use the tool in your computer
 
-```
+```bash
 # To get available options for the tool
 python additive.py -h 
 
