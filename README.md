@@ -1,6 +1,6 @@
-# Transpositional Cipher
+# Substitution Cipher
 
-This python tool is used to encrypt or decrypt a given sentence using transposition algorithm
+This python tool is used to encrypt or decrypt a given sentence using substitution algorithm
 
 ## Table of Contents
 
@@ -11,24 +11,23 @@ This python tool is used to encrypt or decrypt a given sentence using transposit
 
 Type or copy the below code in your terminal to install the tool in your computer 
 
-```bash
+bash
 # Clone the repository
-git clone https://github.com/AL-MD-BILAL/Transposition-Cipher.git
+git clone https://github.com/AL-MD-BILAL/Monoalphabetic-Substitution-Cipher.git
 
-# Change directory to the Transpositional-Cipher directory
-cd Transpositional-Cipher
-```
+# Change directory to the substitution directory
+cd Monoalphabetic-Substitution-Cipher
+
 ## Usage
 
 Type or copy the below code in your terminal to use the tool in your computer
 
-```bash
+bash
 # To get available options for the tool
-python transposition.py -h 
+python additive.py -h 
 
 # To encrypt a sentence 
-python transposition.py -s "This is a sample sentence" -k 3 -e
+python additive.py -s "This is a sample sentence" -k 3 -e
 
 # To decrypt a sentence 
-python transposition.py -s "This is a sample sentence" -k 3 -d
-```
+python additive.py -s "This is a sample sentence" -k 3 -d

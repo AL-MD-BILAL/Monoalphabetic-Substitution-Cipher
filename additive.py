@@ -1,6 +1,6 @@
 import argparse
 
-parser=argparse.ArgumentParser(description="The Transposition Cipher")
+parser=argparse.ArgumentParser(description="The Monoalphabetic Substitution Cipher (Additive Cipher)")
 parser.add_argument('-s','--sentence', metavar='', help='Enter a sentence to encrypt/decrypt', required=True)
 parser.add_argument('-k','--key',type=int, help='Enter a transposition key to encrypt/decrypt',required=True)
 parser.add_argument('-e','--encrypt', help='Encrypts a sentence', action='store_true')
@@ -39,7 +39,7 @@ def decrypt(text,key = 3):
             plaintext += " "
     return plaintext
 
-if __name__ == '__main__' :
+if _name_ == '_main_' :
     if args.encrypt:
         print(encrypt(args.sentence,args.key))
     elif args.decrypt:
