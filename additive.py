@@ -39,7 +39,7 @@ def decrypt(text,key = 3):
             plaintext += " "
     return plaintext
 
-if _name_ == '_main_' :
+if __name__ == '_main_' :
     if args.encrypt:
         print(encrypt(args.sentence,args.key))
     elif args.decrypt:
