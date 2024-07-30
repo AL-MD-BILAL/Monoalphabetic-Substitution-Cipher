@@ -2,7 +2,7 @@ import argparse
 
 parser=argparse.ArgumentParser(description="The Monoalphabetic Substitution Cipher (Additive Cipher)")
 parser.add_argument('-s','--sentence', metavar='', help='Enter a sentence to encrypt/decrypt', required=True)
-parser.add_argument('-k','--key',type=int, help='Enter a transposition key to encrypt/decrypt',required=True)
+parser.add_argument('-k','--key',type=int, help='Enter a substitution key to encrypt/decrypt',required=True)
 parser.add_argument('-e','--encrypt', help='Encrypts a sentence', action='store_true')
 parser.add_argument('-d','--decrypt', help='Decrypts a sentence', action='store_true')
 args = parser.parse_args()
