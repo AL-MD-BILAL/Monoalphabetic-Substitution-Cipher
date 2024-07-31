@@ -13,10 +13,10 @@ Type or copy the below code in your terminal to install the tool in your compute
 
 ```bash
 # Clone the repository
-git clone https://github.com/AL-MD-BILAL/Monoalphabetic-Substitution-Cipher.git
+git clone https://github.com/al-mohamed-bilal/Substitution-Cipher.git
 
 # Change directory to the substitution directory
-cd Monoalphabetic-Substitution-Cipher
+cd Substitution-Cipher
 ```
 ## Usage
 
@@ -24,11 +24,11 @@ Type or copy the below code in your terminal to use the tool in your computer
 
 ```bash
 # To get available options for the tool
-python additive.py -h 
+python shift.py -h 
 
 # To encrypt a sentence 
-python additive.py -s "This is a sample sentence" -k 3 -e
+python shift.py -s "This is a sample sentence" -k 3 -e
 
 # To decrypt a sentence 
-python additive.py -s "This is a sample sentence" -k 3 -d
+python shift.py -s "This is a sample sentence" -k 3 -d
 ```
